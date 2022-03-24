@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /* display: flex; */ 
+    border: 5px solid grey;
+    width: 600px;
+    min-height: 425px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: #17a2b8;
+    width: 600px;
+    height: 125px;
+}
+
+.content {
+    /* border: 5px dotted red; */
+    width: 400px;
+    min-height: 400px;
+    position: absolute;
+    top: 85px;
+    margin-left: 25px;
+}
+
+.profile {
+    height: 100px;
+    border: 2px solid black;
+}
+
+.location {
+    display: flex;
+}
+
+.picture {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+}
